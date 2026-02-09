@@ -135,7 +135,7 @@ After years of managing ML products, I wanted to deeply understand modern AI arc
 
 ## 🎓 Education & Continuous Learning
 
-**Master of Data Science** (In Progress, 2025-2025)  
+**Master of Data Science** (In Progress, 2025-2026)  
 Syracuse University
 
 **Product Management 360** (2024)  
