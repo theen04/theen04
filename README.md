@@ -226,6 +226,8 @@ Digital platform connecting US Masters swim team to workouts, coaches, competiti
 
 ## 📫 Let's Connect
 
+**Bobby Nitto**
+
 [LinkedIn](linkedin.com/in/bobby-nitto) \| [GitHub](https://github.com/theen04/) \| [Email](mailto:rnitto1@gmail.com)
 
 **Open to:**
