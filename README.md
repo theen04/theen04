@@ -226,9 +226,7 @@ Digital platform connecting US Masters swim team to workouts, coaches, competiti
 
 ## 📫 Let's Connect
 
-- **LinkedIn:** [linkedin.com/in/bobby-nitto](https://www.linkedin.com/in/bobby-nitto)
-- **Email:** Rnitto1@gmail.com
-- **Location:** Tenafly, NJ
+[LinkedIn](linkedin.com/in/bobby-nitto) \| [GitHub](https://github.com/theen04/) \| [Email](mailto:rnitto1@gmail.com)
 
 **Open to:**
 - AI/ML Product Management roles
