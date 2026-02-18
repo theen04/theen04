@@ -42,6 +42,37 @@ After years of managing ML products, I wanted to deeply understand modern AI arc
 
 ---
 
+### NCAA Swimming Analytics: 50-Yard Freestyle Performance Analysis
+
+A data science project quantifying elite performance and competitive dynamics across 25 years of NCAA Men's sprint swimming (2000–2025).
+
+**Why I built it:**  
+As a former competitive swimmer, I wanted to combine my sports domain knowledge with hands-on data engineering and statistical analysis skills. This project turns raw NCAA meet results into rigorous, insight-driven analytics.
+
+**What it does:**
+
+* End-to-end ETL pipeline: raw PDFs → structured datasets → statistical insights
+* Robust outlier detection using IQR and MAD-based methods resistant to skewed distributions
+* 25-year temporal trend analysis with animated KDE visualizations
+* Winner gap analysis, competitive depth benchmarking, and program dominance patterns
+* SQLite persistence with modular, production-oriented architecture
+
+**Tech Stack:** Python • pandas • NumPy • SciPy • Matplotlib • Seaborn • SQLite • pdfplumber • Jupyter
+
+**Key Findings:**
+
+- **Performance Evolution:** Finals times trend slightly slower than prelims. Improvements are generally modest year-over-year, with occasional outlier seasons — like 2009 — showing field-wide acceleration.
+- **Competitive Consistency:** Times cluster tightly around 19.3 seconds; hundredths of a second matter. The spread has stayed remarkably stable despite gradual long-term improvement.
+- **Program Dominance:** A small number of programs consistently dominate — Florida and Auburn lead with five championships each.
+- **Exceptional Outliers:** Caeleb Dressel's 2018 win is the most extreme deviation from field performance in 25 years, showing how one athlete can define a season without disrupting the sport's long-term competitive stability.
+
+
+**Roadmap:** Extend to additional events • NCAA vs. Olympic Trials comparisons • Interactive dashboard • Predictive time-series modeling
+
+[View Project →](https://github.com/theen04/ncaa_50_free_analysis)
+
+---
+
 ## 💼 Professional Experience Highlights
 
 ### Senior Product Manager @ Curinos (2018-2023)
@@ -69,11 +100,11 @@ After years of managing ML products, I wanted to deeply understand modern AI arc
 
 **Agile Transformation Leader:**
 - Led Agile transformation for Global Transaction Services (250+ employees)
-- Managed 10-12 Agile teams building features for CashPro (commercial treasury platform)
 - Coached Release Trains in SAFe, Scrum, and Kanban methodologies
 - Developed continuous improvement plans leveraging industry frameworks
 
 **Product Development:**
+- Managed 10-12 Agile teams building features for CashPro (commercial treasury platform)
 - Led projects across Reporting, Payments, Bill Pay, International Tax, Trade, and Investments
 - Integrated Money Market Fund investment solution with CashPro platform
 - Published integration standards for third-party vendors simplifying RFP process
