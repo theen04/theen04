@@ -16,7 +16,39 @@ I combine **product leadership** with **hands-on technical skills** to ship AI/M
 
 ---
 
-## 🚀 Featured Project: FinTech AI Agent
+### 🚀 Featured Project: Credit Risk ML Framework: Lending Club Loan Analysis
+
+A production-quality credit risk framework built on 1.86M resolved Lending Club 
+loans — covering default classification, risk-based pricing, and neural network 
+scoring across three notebooks, powered by a reusable `banking_ml` package.
+
+**Why I built it:**  
+Credit risk models at banks and fintechs rely heavily on proprietary risk grades 
+that aren't available to outside lenders. I wanted to reverse-engineer a credit 
+scoring model from raw borrower data alone — the same signals available on a loan 
+application — and see how much of Lending Club's internal grading was recoverable. 
+The answer: almost all of it. Removing their proprietary grades costs less than 
+0.001 AUC.
+
+**What it does:**
+- Binary default classifier (AUC 0.7366) without proprietary risk grades
+- Interest rate regression reconstructing Lending Club's pricing decisions (R² 0.4838)
+- Neural network scoring with cross-architecture feature selection analysis
+- Reusable `banking_ml` package with 59 passing tests across 6 modules
+- SHAP-based explainability with cross-notebook feature importance comparison
+
+**Tech Stack:** Python • PyTorch • XGBoost • scikit-learn • SHAP • Pytest
+
+**Key Finding:**  
+XGBoost performs best with 33 curated features while the neural network performs 
+best with 90 — the two architectures have fundamentally different relationships 
+with feature selection. That finding is more interesting than the AUC gap between them.
+
+[View Project →](https://github.com/theen04/credit-risk-ml-framework)
+
+---
+
+## FinTech AI Agent
 
 An autonomous research agent demonstrating production-grade AI system design for financial market analysis.
 
@@ -115,24 +147,33 @@ As a former competitive swimmer, I wanted to combine my sports domain knowledge 
 ## 🛠️ Technical Skills
 
 ### AI/ML & Data Science
-**Current Learning (MS Data Science - in progress):**
-- Machine learning with scikit-learn (supervised, unsupervised, ensemble methods)
-- Feature engineering and model evaluation
-- Statistical analysis and hypothesis testing
-- Database design and normalization
-- Data visualization (Python: matplotlib/seaborn, R: ggplot2)
 
-**Applied Experience:**
-- Collaborated with ML engineers on pricing model deployments
-- Built BI visualizations on ML pipeline outputs
-- Defined data profiles for ML model accuracy
-- Integrated BYOM (Bring Your Own Model) systems
+**Machine Learning:**
+- Supervised learning: classification, regression, ensemble methods (XGBoost, Gradient Boosting)
+- Neural networks: PyTorch feedforward networks, BCEWithLogitsLoss, early stopping
+- Model evaluation: AUC, Gini coefficient, KS statistic, Brier score, RMSE, R²
+- Feature engineering: domain-specific feature construction, leakage detection
+- Model explainability: SHAP values, feature importance, beeswarm analysis
+- Credit risk modeling: default classification, risk-based pricing, calibration analysis
 
 **AI Agent Development:**
 - LangChain, LangGraph agent architectures
 - Tool-augmented reasoning (ReAct pattern)
 - Prompt engineering and LLM orchestration
 - Structured outputs with Pydantic
+
+**Data Science:**
+- Statistical analysis and hypothesis testing
+- Feature selection and dimensionality reduction
+- Data visualization (Python: matplotlib/seaborn, R: ggplot2)
+- Database design and normalization
+
+**Applied Experience:**
+- Built production ML framework processing 1.86M loan records
+- Collaborated with ML engineers on pricing model deployments
+- Built BI visualizations on ML pipeline outputs
+- Defined data profiles for ML model accuracy
+- Integrated BYOM (Bring Your Own Model) systems
 
 ### Engineering & Data
 **Languages:** Python, SQL (MS SQL, Oracle), JavaScript (AngularJS)
@@ -205,19 +246,18 @@ At Curinos, I didn't just "manage" the ML pricing tool—I worked directly with 
 ## 🌱 Current Learning Journey
 
 **Building:**
-- Multi-agent AI systems for financial research
-- Vector database integration (Pinecone, Weaviate)
-- RAG (Retrieval-Augmented Generation) patterns
+- Stock and portfolio analysis agent — AI-powered investigator combining market data, 
+  fundamentals, and news into structured investment insights
+- Expanding `banking_ml` into a broader financial ML framework across new problem domains
 
 **Learning:**
-- Advanced statistical methods for ML model evaluation
+- Financial analytics: modern portfolio theory, factor models, risk-adjusted returns
 - Time series forecasting for financial applications
-- Database optimization and query performance
+- Agentic AI patterns: tool use, multi-step reasoning, structured output
 
 **Exploring:**
-- Healthcare analytics applications
 - Sports performance modeling (combining my swimming background with ML)
-- Risk assessment and predictive modeling
+- Risk assessment and predictive modeling across domains
 
 ---
 
