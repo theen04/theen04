@@ -16,7 +16,7 @@ I combine **product leadership** with **hands-on technical skills** to ship AI/M
 
 ---
 
-### 🚀 Featured Project: Credit Risk ML Framework: Lending Club Loan Analysis
+### 🚀 Featured Project: Credit Risk ML Framework & Lending Club Loan Analysis
 
 A production-quality credit risk framework built on 1.86M resolved Lending Club 
 loans — covering default classification, risk-based pricing, and neural network 
