@@ -1,6 +1,6 @@
 # Hi, I'm Bobby 👋
 
-**Product Manager & ML Engineer** building intelligent systems for financial services.
+Product leader with an engineering obsession — diving deep into ML to build the systems I've spent a decade managing.
 
 10+ years bridging product, engineering, and data—from leading Bank of America's Agile transformation to building ML-powered pricing tools at Curinos. Now applying hands-on data science skills to create production AI agents.
 
