@@ -2,15 +2,23 @@
 
 Product leader with an engineering obsession — diving deep into ML to build the systems I've spent a decade managing.
 
-10+ years bridging product, engineering, and data—from leading Bank of America's Agile transformation to building ML-powered pricing tools at Curinos. Now applying hands-on data science skills to create production AI agents.
+10+ years bridging product, engineering, and data — from leading Bank of America’s Agile transformation to building ML-powered pricing tools at Curinos. Now focused on hands-on ML engineering, AI development, and applied data science.
 
 ---
 
 ## 🎯 What I Do
 
-I combine **product leadership** with **hands-on technical skills** to ship AI/ML systems that solve real business problems.
+I operate at the intersection of product strategy and ML engineering, building production-ready AI systems that translate raw data into measurable decisions.
 
-**Current Focus:** Building autonomous AI agents for financial research and analysis
+My work spans:  
+- End-to-end ML pipelines (ETL → modeling → evaluation → explainability)
+- Risk modeling and pricing systems
+- Autonomous AI agents with tool-augmented reasoning
+- Reusable, test-driven ML infrastructure
+
+I focus on systems — not just models — emphasizing architecture, feature selection strategy, model comparison, and real-world deployment considerations.
+
+**Current Focus:** Designing autonomous AI agents for financial research and decision support, while continuing to build production-grade ML frameworks for risk and pricing applications.
 
 **Background:** Led development of machine learning pricing tools processing lending decisions for major banks • Scaled Agile transformation across 250+ employees • Built commercial treasury platforms serving enterprise clients
 
