@@ -13,8 +13,7 @@ I'm interested in machine learning engineering, AI systems, data engineering and
 ## Featured Projects
 
 - Mortgage Pricing Optimization
-- Technical Portfolio Website
-- Agentic Portfolio Intelligence
+- Authorship Attribution
 - Swimming Stroke Classification
 
 📫 LinkedIn: https://linkedin.com/in/bobby-nitto
