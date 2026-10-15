@@ -6,7 +6,6 @@ I'm interested in machine learning engineering, AI systems, data engineering and
 
 ## Current Focus
 
-- 🏗️ Data lakehouse architecture
 - 🤖 Agentic AI systems
 - 🏊 Human action recognition & computer vision
 
