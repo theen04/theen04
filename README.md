@@ -18,5 +18,5 @@ I'm interested in machine learning engineering, AI systems, data engineering and
 
 📫 LinkedIn: https://linkedin.com/in/bobby-nitto
 
-🌐 Portfolio: coming soon
+🌐 Portfolio: https://www.thepracticaltpm.com
 
